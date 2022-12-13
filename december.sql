@@ -68,3 +68,15 @@ select * from pravin1 where RowNum<=3
 select * from pravin1 where id=1002
 
 select * from pravin1 where id=1001
+select * from pravin1 order by id desc
+
+select  top 3 from pravin1
+
+select * from pravin1 where RowNum<=3
+select * from pravin1 where rownum<=3
+
+select * from pravin1 where id=1001
+select * from pravin where id in(1,2)
+
+
+create table emp1(emp_id int ,F_N char(10),L.N char(10),city char(10),salary int,mob_num int)
